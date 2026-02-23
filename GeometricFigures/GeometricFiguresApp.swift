@@ -11,7 +11,10 @@ import SwiftUI
 struct GeometricFiguresApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CircleView()
         }
     }
+}
+#Preview {
+    CircleView()
 }
