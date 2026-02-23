@@ -28,6 +28,11 @@ struct CircleView: View {
                 // Label showing the current slider value
                 Text("Radius is \(currentCircle.radius.formatted())")
                 
+                // Label showing other information about the circle
+                Text("Diameter is \(currentCircle.diameter.formatted())")
+                Text("Area is \(currentCircle.area.formatted())")
+                Text("Circumference is \(currentCircle.circumference.formatted())")
+                
             }
         }
     }
